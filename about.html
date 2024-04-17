@@ -1,0 +1,40 @@
+{% include "tabs.html" %}
+   {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styler.css' %}"/>
+</head>
+<body>
+    
+    <header>
+        <h1>About Us</h1>
+    </header>
+    
+
+    <div class="section">
+        <div class="serviceImg">
+            <img src="{% static 'codeMon.jpg' %}">
+    
+
+        </div>
+        <div class="serviceImg" >
+            <img src="{% static 'meetingAbout.jpg' %}" >
+            
+        </div>
+        <div class="serviceImg" >
+            <img src="{% static 'carrier.jpg' %}" >
+            
+        </div>
+
+        <p>We are establishing a community that is driven to solve your problems</p>
+        
+    </div>
+    
+    
+    
+</body>
+</html>
