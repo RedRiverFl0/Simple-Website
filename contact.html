@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
     
@@ -29,8 +29,29 @@
         </div>
     
     </nav>
-
-
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    
+        <div id="calendar">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://fullcalendar.io/js/fullcalendar-3.1.0/lib/moment.min.js"></script>
+        <script src="https://fullcalendar.io/js/fullcalendar-3.1.0/fullcalendar.min.js"></script>
+        
+        <script>
+            // Assume you have initialized FullCalendar on a div with id 'calendar'
+    
+        
+    var calendar = $('#calendar').fullCalendar({ 
+        defaultView: 'month'
+        
+    });
+    
+    $('#calendar').fullCalendar( 'option', 'aspectRatio', 1);
+    
+    $('#calendar').fullCalendar( {});
+    </script>
+    
 
 </body>
 </html>
