@@ -1,3 +1,46 @@
 body {
 background-color: gray;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;   
+    height: 120px;
+    width: 98%;
+    text-align: center;
+    background-color: green;
+    color: black;
+    background-size: 50%;
+   
+    border: 15px groove yellowgreen;
+
+    margin: auto;
+}
+.tabList {
+    list-style-type: circle;
+    padding: 0%;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 15px;
+    
+
+
+}
+.tabList li{
+    display: inline;
+    margin: 0 10px;
+    font-size: 30px;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    
+    padding: 10px;
+}
+
+.tabList li a{
+    color: white;
+
+
+}
+  
